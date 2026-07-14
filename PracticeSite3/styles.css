@@ -1,0 +1,111 @@
+body{
+    font-family: Arial, sans-serif;
+    background-color:#f8f8f8;
+    color:#333;
+    margin:20px;
+}
+
+nav{
+    background:#0a0158;
+    padding:15px;
+}
+
+nav a{
+    color:white;
+    text-decoration:none;
+    margin-right:20px;
+}
+
+h1{
+    color:#003366;
+}
+
+h2{
+    color:#0055aa;
+}
+
+p{
+    font-size:18px;
+    line-height:1.6;
+    text-align:justify;
+}
+
+img{
+    width:250px;
+    border-radius:10px;
+}
+
+.portfolio-image{
+    width:50%;
+    height:auto;
+    border-radius:10px;
+}
+
+figure{
+    margin:20px 0;
+}
+
+figcaption{
+    margin-top:8px;
+    font-size:0.95rem;
+    color:#555;
+}
+
+.intro-layout{
+    display:flex;
+    align-items:flex-start;
+    gap:24px;
+    flex-wrap:wrap;
+}
+
+.profile-figure{
+    margin:0;
+    flex:0 0 300px;
+}
+
+.intro-text{
+    flex:1 1 400px;
+}
+
+section{
+    background:white;
+    padding:20px;
+    margin-bottom:20px;
+    border:1px solid #ccc;
+}
+
+footer{
+    text-align:center;
+    margin-top:30px;
+}
+
+#Intro{
+    background-color:#ec8ce4;
+    color:#050505;
+    font-size:35px;
+    text-align:center; 
+    Border: 5px solid #050505; 
+    padding: 20px;
+    margin: 20px;
+}
+
+#Portfolio-Intro{
+    background-color:#59bae0;
+    color:#050505;
+    font-size:20px;
+    text-align:Left;  
+}
+
+#Teaching-Intro{
+    background-color:#f5e6a0;
+    color:#050505;
+    font-size:20px;
+    text-align:Left;  
+}
+
+#Education-Intro{
+    background-color:#b7f368;
+    color:#050505;
+    font-size:20px;
+    text-align:Left;  
+}
